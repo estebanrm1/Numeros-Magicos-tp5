@@ -1,0 +1,22 @@
+body{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;}
+
+main{
+    flex-grow: 1;
+}
+
+
+.container-input input {
+    width: 50%;
+    height: 28px;
+    background: #c0c0c0;
+    color: rgb(212, 50, 0);
+    font-size: 16px;
+    font-weight: bolder;
+    border-bottom: solid 2px aqua;
+    border: none;
+    border-radius: 6px;
+    margin: auto;
+}
